@@ -18,8 +18,9 @@ Ok, here's the four git commands you'll need. If you don't understand how or why
 
 1. To check the status of your repository, use git status. Try this now in the Hidden Kingdoms directory. If you've changed nothing you should see these results displayed:
 
+```git status```
+
 ```
-git status
 On branch master
 Your branch is up to date with 'origin/master'.
 
@@ -41,6 +42,7 @@ git commit -m 'Added a README'
 4. Not always, but often multiple file changes will be staged in one commit if those changes are related. 
 
 5. Push your new stuff up to the remote repository with this:
+
 ```git push```
 
 After pushing, I'll be able to see and download the new code in the repo. Theres more around this (and feel free to ask questions if I'm not going fast enough in any area), but lets start with these commands. 
