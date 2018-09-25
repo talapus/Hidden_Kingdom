@@ -18,9 +18,9 @@ Ok, here's the four git commands you'll need. If you don't understand how or why
 
 1. To check the status of your repository, use git status. Try this now in the Hidden Kingdoms directory. If you've changed nothing you should see these results displayed:
 
-```git status```
-
 ```
+git status
+
 On branch master
 Your branch is up to date with 'origin/master'.
 
