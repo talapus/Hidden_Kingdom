@@ -17,22 +17,31 @@ Also, this code is yours. I'm just collaborating with you. I'll give you the rep
 Ok, here's the four git commands you'll need. If you don't understand how or why these are used, ask anytime. 
 
 1. To check the status of your repository, use git status. Try this now in the Hidden Kingdoms directory. If you've changed nothing you should see these results displayed:
-``` ▶ git status
+
+```
+git status
 On branch master
 Your branch is up to date with 'origin/master'.
 
-nothing to commit, working tree clean ```
+nothing to commit, working tree clean
+```
 
 2. if you create a new file or make changes to an existing file, you need to 'add' the file to tell git that there is new stuff in there. I added this README file like this:
-``` git add README.md ```
+
+```
+git add README.md 
+```
 
 3. Once you've told git which files need to be added, you need to stage a commit. Always add a commit message with the -m switch:
-``` git commit -m 'Added a README' ```
+
+```
+git commit -m 'Added a README'
+```
 
 4. Not always, but often multiple file changes will be staged in one commit if those changes are related. 
 
 5. Push your new stuff up to the remote repository with this:
-``` git push ```
+```git push```
 
 After pushing, I'll be able to see and download the new code in the repo. Theres more around this (and feel free to ask questions if I'm not going fast enough in any area), but lets start with these commands. 
 
