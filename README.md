@@ -47,4 +47,4 @@ git commit -m 'Added a README'
 
 After pushing, I'll be able to see and download the new code in the repo. Theres more around this (and feel free to ask questions if I'm not going fast enough in any area), but lets start with these commands. 
 
-Also, take a few minutes to look around the web-based interface for the repository. See '4 Commits'? Click on that. Those are the commits where I pushed up your game file and the readme. 
+Also, take a few minutes to look around the web-based interface for the repository. See '8 Commits'? (most of those are me fixing the formatting in the README hehe). Click on that. Those are the commits where I pushed up your game file and the readme. 
