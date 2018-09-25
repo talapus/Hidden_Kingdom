@@ -1,4 +1,6 @@
-Hey Jacob! I'd like to collaborate with you on your game if that's OK? I put it here to give you a taste of what it's like to be on a distributed development team. 
+Hey Jacob! I'd like to collaborate with you on your game if that's OK? Schoolwork needs to come first, but I'd love to write some code with you when time allows. 
+
+I put it here to give you a taste of what it's like to be on a distributed development team. 
 
 In addition to improving your game and python skills, using this repository will teach you the tools you'll need to work on teams with other developers - specifically, the git tools and git repositories. 
 
@@ -32,4 +34,6 @@ nothing to commit, working tree clean```
 5. Push your new stuff up to the remote repository with this:
 ```git push```
 
-After pushing
+After pushing, I'll be able to see and download the new code in the repo. Theres more around this (and feel free to ask questions if I'm not going fast enough in any area), but lets start with these commands. 
+
+Also, take a few minutes to look around the web-based interface for the repository. See '3 Commits'? Click on that. Those are the commits where I pushed up your game file and the readme. 
