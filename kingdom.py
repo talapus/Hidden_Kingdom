@@ -114,7 +114,7 @@ if __name__ == '__main__':
 
 # TODO:
 
-# 1. Character nanes?
+# 1. Character names?
 # 2. Can we give the character stats like STR, CON, DEX, INT, WIS, CHR, etc? Randomly generate them and print them out?
 # 3. Once they have stats, we can generate armor class and hit points. 
 # 4. once they have armor class and hit points, we can make them fight monsters or each other, gain xp, items, level up, etc. 
