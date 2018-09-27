@@ -45,8 +45,9 @@ if __name__ == '__main__':
     weapon_1 = weapon_1.lower()
 
     if  weapon_1 == chest_item1 or weapon_1 == chest_item2: 
-        print('')
-        print ('Great!')
+        print('')  # delete this line
+        print ('Great!')  # change this to:  print ('\nGreat!')
+                          # do the same thing for the others below, then delete these comments
         sidearm = input('What will you hold as a sidearm? A bow or fairy dust? ')
         sidearm = sidearm.lower()
 
@@ -102,4 +103,4 @@ if __name__ == '__main__':
     sleep(1)
     print('\n' * 200)
     print('You are a level {} {} {}'.format(randint(1,10), character_race(), character_class())) # another way to do print statements
-    print ('\nyour main weapon is %s and your sidearm is %s' %(weapon_1,sidearm) )  # this is the python2 style way, still works fine
+    print ('\nyour main weapon is %s and your sidearm is %s' %(weapon_1,sidearm) )  # this is the python2 style way, still useful
