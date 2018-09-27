@@ -106,3 +106,15 @@ if __name__ == '__main__':
                                     # character_race() and character_class() are function calls
                                                             
     print ('\nyour main weapon is %s and your sidearm is %s' %(weapon_1, sidearm) )  # this is the python2 style way, still useful
+
+    print('💀 ☠ 🔥 💪 💰 💡 💣 💥 🌞 🌠') # these are unicode characters. Think these might be useful to display your character?
+                                       # visit https://unicode-table.com to peruse the whole unicode character set
+
+
+
+# TODO:
+
+# 1. Character nanes?
+# 2. Can we give the character stats like STR, CON, DEX, INT, WIS, CHR, etc? Randomly generate them and print them out?
+# 3. Once they have stats, we can generate armor class and hit points. 
+# 4. once they have armor class and hit points, we can make them fight monsters or each other, gain xp, items, level up, etc. 
