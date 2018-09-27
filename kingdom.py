@@ -26,15 +26,13 @@ if __name__ == '__main__':
 
     print ('\nYour Main weaopon is ' + weapon_1 + '. And your sidearm will be ' + sidearm)
 
-    # The '\' charcter lets us do multi-line print statements like you were doing, but with less words to type
-    # Also, the '\n' is a 'newline'. Instead of a separate "print('')" statement, just add \n to your string wherever you want the 
+    # '\n' is a 'newline'. Instead of a separate "print('')" statement, just add \n to your string wherever you want the 
     # new line. I did some of it for you. 
+    # For example, if you wanted three newlines after "Hello!", it would be: print("Hello!\n\n\nGoodbye!")
 
-    print('\nYou awake in a room...\
-    \nyou find a chest!\
-    \nThe chest has 4 weapons, 2 main weapons and 2 sidearms!\
-    \nthe 2 main weapons are a great sword and a magic staff...\
-    \nthe 2 sidearms are a bow and a bag of fairy dust...')
+    print('\nYou awake in a room...\nyou find a chest!')
+    print('\nThe chest has 4 weapons, 2 main weapons and 2 sidearms!')
+    print('\nthe 2 main weapons are a great sword and a magic staff...\nthe 2 sidearms are a bow and a bag of fairy dust...')
 
     chest_item1 = 'great sword'  # variable names should preferably always be lower case. I lowercased your names for you, 
     chest_item2 = 'magic staff'
