@@ -98,7 +98,11 @@ if __name__ == '__main__':
             sidearm = 'none'
 
     print('ok, here we go!')
-    sleep(1)
-    print('\n' * 200)
-    print('You are a level {} {} {}'.format(randint(1,10), character_race(), character_class())) # another way to do print statements
-    print ('\nyour main weapon is %s and your sidearm is %s' %(weapon_1,sidearm) )  # this is the python2 style way, still useful
+    sleep(1)            # sleeps for 1 second
+    print('\n' * 200)   # prints a newline 200 times
+    print('You are a level {} {} {}'.format(randint(1,10), character_race(), character_class())) 
+                                    # python3-style print statements usually utilize the .format idiom
+                                    # it is used wherever strings are used, not just print statements
+                                    # character_race() and character_class() are function calls
+                                                            
+    print ('\nyour main weapon is %s and your sidearm is %s' %(weapon_1, sidearm) )  # this is the python2 style way, still useful
