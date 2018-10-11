@@ -4,7 +4,7 @@ from random import choice
 from time import sleep
 
 # global variables go below that
-weapon_1 = 'fists'
+Primary = 'fists'
 secondary = 'none'
 
 
@@ -41,7 +41,7 @@ if __name__ == '__main__':
 
     character_name() 
 
-    print ('\nYour Main weaopon is ' + weapon_1 + '. And your secondary is ' + secondary)
+    print ('\nYour Main weaopon is ' + Primary + '. And your secondary is ' + secondary)
 
     # '\n' is a 'newline'. Instead of a separate "print('')" statement, just add \n to your string wherever you want the 
     # new line. I did some of it for you. 
@@ -56,10 +56,10 @@ if __name__ == '__main__':
     chest_item3 = 'bow'
     chest_item4 = 'fairy dust'
     
-    weapon_1 = input('\nWhat\'s your main weapon? Great sword or magic staff? ')
-    weapon_1 = weapon_1.lower()
+    Primary = input('\nWhat\'s your main weapon? Great sword or magic staff? ')
+    Primary = Primary.lower()
 
-    if  weapon_1 == chest_item1 or weapon_1 == chest_item2:  
+    if  Primary == chest_item1 or Primary == chest_item2:  
         print ('\nGreat!')  
                           
         secondary = input('What will you hold as a secondary? A bow or fairy dust? ')
@@ -80,10 +80,10 @@ if __name__ == '__main__':
 
     else:
         print ('\nThe chest does not contain these items try again\n')
-        weapon_1 = input('Whats your main weapon? Great sword or magic staff? ')
-        weapon_1 = weapon_1.lower()
+        Primary = input('Whats your main weapon? Great sword or magic staff? ')
+        Primary = Primary.lower()
 
-        if weapon_1 == chest_item1 or weapon_1 == chest_item2:
+        if Primary == chest_item1 or Primary == chest_item2:
             print ('\ngreat')
             secondary = input('What will you hold as a secondary? A bow or fairy dust? ')
             secondary = secondary.lower()
@@ -101,16 +101,16 @@ if __name__ == '__main__':
 
                 else:
                     print ('\nYour Greed and stupidity has betrayed you. Now you have nothing.')
-                    weapon_1 = 'fists'
+                    Primary = 'fists'
                     secondary = 'none'
 
         else:
             print('\nyour greed and stupidity has betrayed you. Now you have nothing')
-            weapon_1 = 'fists'
+            Primary = 'fists'
             secondary = 'none'
 
     print('ok, here we go!')
-    sleep(1.5)            # sleeps for 1.5 second
+    sleep(1.5)            # sleeps for 1.5 seconds
     print('\n' * 200)   # prints a newline 200 times
     print ('Your name is ' + player_name)
     print('You are a level {} {} {}'.format(randint(1,10), character_race(), character_class())) 
@@ -118,7 +118,7 @@ if __name__ == '__main__':
                                     # it is used wherever strings are used, not just print statements
                                     # character_race() and character_class() are function calls
                                                             
-    print ('\nyour main weapon is a %s and your secondary is %s' %(weapon_1, secondary) )  # this is the python2 style way, still useful
+    print ('\nyour main weapon is a %s and your secondary is %s' %(Primary, secondary) )  # this is the python2 style way, still useful
 
     print('💀 ☠ 🔥 💪 💰 💡 💣 💥 🌞 🌠') # these are unicode characters. Think these might be useful to display your character?
                                        # visit https://unicode-table.com to peruse the whole unicode character set
