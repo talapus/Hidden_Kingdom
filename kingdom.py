@@ -24,6 +24,8 @@ def character_name():   #allows player to choose their own name
             player_name = input('\nWhat is your name?')
     return player_name
 
+
+
 def character_class():  # returns a random word from the list when the function is called
     return choice(['warrior', 'wizard', 'thief', 'cleric', 'ranger', 'paladin', 'death knight', 'monk'])
 
@@ -113,6 +115,7 @@ if __name__ == '__main__':
     sleep(1.5)            # sleeps for 1.5 seconds
     print('\n' * 200)   # prints a newline 200 times
     print ('Your name is ' + player_name)
+    character_stats(15)
     print('You are a level {} {} {}'.format(randint(1,10), character_race(), character_class())) 
                                     # python3-style print statements usually utilize the .format idiom
                                     # it is used wherever strings are used, not just print statements
